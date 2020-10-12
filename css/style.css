@@ -1,0 +1,283 @@
+@font-face {
+  font-family: Bolds;
+  src: url(../fonts/Bold.ttf);
+}
+
+@font-face {
+  font-family: Light;
+  src: url(../fonts/Light.ttf);
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(../fonts/ARBFONTS-VIPRAWYBOLDBOLD.OTF);
+}
+
+@font-face {
+  font-family: SemiBold;
+  src: url(../fonts/SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'nBold';
+  src: url(../fonts/din-next-arabic-bold.ttf);
+}
+
+body {
+  min-width: 320px;
+  background:#fff;
+  font-family: Regular;
+  position: relative;
+  text-align: right;
+  direction: rtl;
+}
+
+
+/* centre that bad boy */
+
+.list-cotent--header ul {
+  text-align: center;
+}
+
+.pre-load path {
+  fill: #97c941 !important;
+  fill-opacity: 1;
+}
+
+.clier-fix {
+  clear: both;
+  display: inline;
+}
+
+nav .list ul.list-inline {
+  margin-bottom: 0px;
+  padding-right: 0px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+input,
+button {
+  outline: none;
+}
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+  float: right;
+  text-align: right;
+  direction: rtl
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+section {
+  padding: 30px 0px;
+}
+
+
+/*======================****=====================*/
+
+.modal-video{
+  display: none;
+}
+
+
+span {}
+
+section.landing {
+    background: rgba(244, 244, 244, 1) 0% 0% no-repeat padding-box;
+}
+
+.landing__header-socail {
+    display: flex;
+    align-items: center;
+}
+
+.landing__header-socail .img {
+    margin: 0px 8px;
+    width: 50px;
+    margin-left: 0px;
+}
+
+.landing__header-socail .img img {
+    width: 100%;
+}
+
+.landing__header-socail .socail--list ul {
+    display: flex;
+}
+
+.landing__header-socail .socail--list ul li {
+    margin: 0px 10px;
+}
+
+.landing__header-socail .socail--list ul li a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #008b83;
+    border-radius: 50%;
+    color: #008b83;
+    font-size: 16px;
+}
+
+.landing__header-socail > span {
+    color: #008b83;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 19px;
+}
+
+
+
+.landing__header--bottom {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.landing__header--bottom .landing__header--bottom--logo {
+    max-width: 44%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.landing__header--bottom .landing__header--bottom--logo img {
+    width: 100%;
+}
+
+.landing__header--bottom-howTo {
+    display: flex;
+    flex-flow: column;
+}
+
+.landing__header--bottom-howTo .bottom-howTo--play {
+    padding-right: 125px;
+    padding-top: 15px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.landing__header--bottom-howTo .bottom-howTo--play span.play-img {
+    display: inline-block;
+    width: 56px;
+}
+
+.landing__header--bottom-howTo .bottom-howTo--play span.play-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #008b83;
+    border-radius: 50%;
+    position: relative;
+    color: #008b83;
+    padding-top: 13px;
+    margin: 0px 12px;
+}
+
+.landing__header--bottom-howTo .bottom-howTo--play span.play-btn a{
+
+display: inline-block;
+
+height: 32px;
+
+padding: 0px 30px;
+
+background: #008b83;
+
+color: #fff;
+
+line-height: 34px;
+
+border-radius: 30px;
+}
+
+.landing__header--bottom-howTo .bottom-howTo--play span.play-img img {
+    width: 100%;
+}
+
+.landing__header--bottom-howTo .bottom-howTo--play span.play-icon svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
