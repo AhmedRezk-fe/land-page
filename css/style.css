@@ -228,6 +228,7 @@ section.landing:after{
     width: 90%;
     margin: auto;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .landing__header--bottom .landing__header--bottom--logo {
@@ -303,10 +304,12 @@ border-radius: 30px;
 }
 .landing__header--bottom-howTo h2 {
   font-size: 22px;
+  color: #008b83;
 }
 .landing__content-grid {
     display: flex;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    align-items: center;
 }
 
 .landing__content-grid .landing__content-video {
@@ -325,7 +328,7 @@ border-radius: 30px;
     padding-top: 20px;
 }
 
-.landing__content-grid .landing__content-dis p {width: 65%;}
+.landing__content-grid .landing__content-dis p {width: 66%;font-size: 17px;text-align: justify;margin-bottom: 9px;}
 .landing__footer-grid {
     display: flex;
     justify-content: space-between;
@@ -527,11 +530,17 @@ body.over {
     min-height: 200px;
     width: 100%;
 }
+section.landing{
+  background: unset;
+}
  }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
   .landing__header-socail .socail--list ul li {
     margin: 0px 3px;
+}
+section.landing{
+  background: unset;
 }
 .overlay {
   background: rgb(0 0 0 / 56%);
@@ -629,6 +638,23 @@ body.over {
     top: 34%;
     width: 60%;
 }
+.landing__footer-grid .landing__footer-application {
+  flex-wrap: wrap;
+}
+
+.landing__footer-grid .landing__footer-application span.title {
+  min-width: 100%;
+}
+
+.landing__footer-grid .landing__footer-application .footer-app ul li img {
+  width: 102px;
+}
+.landing__content-grid .landing__content-dis p {
+  width: 83%;
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 9px;
+}
 
 .modal-content-video {
     /* width: 80%; */
@@ -641,9 +667,24 @@ body.over {
  }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-  
+  .landing__header--bottom{
+    margin-top: 0px;
+  }
  }
+ @media (min-width: 1200px) and (max-width: 1300.98px) { 
+  .landing__header--bottom{
+    margin-top: 0px;
+  }
+}
 
-@media (min-width: 1200px) { 
-  
+@media (min-width: 1300px) { 
+  section.landing {
+    /* position: relative; */
+    background: url(../img/bg.png) no-repeat center;
+    /* width: 100%; */
+    background-size: 36%;
+    min-height: 100vh;
+    /* position: relative; */
+    background-position: -14% center;
+}
  }

@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="css/style.css" />
 
 </head>
+<script>
+
+</script>
 
 <body>
     <div class="modal-video">
@@ -27,7 +30,7 @@
                 </div>
             </div>
             <div class="modal-content-video">
-                <iframe  class="modal-v" src="https://www.youtube.com/embed/tFVBn4UIJDk" frameborder="0"
+                <iframe class="modal-v" src="https://www.youtube.com/embed/tFVBn4UIJDk" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
@@ -38,7 +41,7 @@
             <div class="container">
                 <div class="landing__header__top">
                     <div class="landing__header-socail">
-                        <span>تابعنا دلوقتي</span>
+                        <span> تابعونا على شيل فيسبوك</span>
                         <div class="img">
                             <img src="img/Path1.png" alt="">
                         </div>
@@ -70,7 +73,7 @@
                         </a>
                     </div>
                     <div class="landing__header--bottom-howTo">
-                        <h2>شاهد طريقه التسجيل</h2>
+                        <h2>شاهد طريقة فتح المتجر</h2>
                         <div class="bottom-howTo--play">
                             <span class="play-img">
                                 <img src="img/Path2.png" alt="">
@@ -90,23 +93,22 @@
             <div class="container">
                 <div class="landing__content-grid">
                     <div class="landing__content-video">
-                        <iframe class="video"  src="https://www.youtube.com/embed/9P28CDqmbBc" frameborder="0"
+                        <iframe class="video" src="https://www.youtube.com/embed/9P28CDqmbBc" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
                     <div class="landing__content-dis">
-                        <p>المنصة الرائدة فى التحول الرقمي والمدفوعات الإلكترونية تقدم خدمات مالية للعملاء والشركات خلال
-                            قنوات متعددة و اكثر من ١٦٦,٥٠٠ موقع.
+                        <p>يسعدنا دعوتكم للتسجيل في  منظومة هاندي أول منظومة افتراضيه تدعم الأسر المنتجة في جميع مناطق المملكة 🇸🇦
                         </p>
                         <p>
-                            تتيح فوري طرق آمنة وسهلة لدفع الفواتير عن طريق قنوات
-                            متنوعة تشمل ماكينات الصراف الآلي والمحافظ الإلكترونية والمنافذ التجارية بالإضافة للدفع عن
-                            طريق الإنترنت.
+                            افتح متجرك الان مع هاندي المتاجر واستفد من جميع الخدمات مجاناً .. 
+                            عرض المنتجات 
+                            خدمة التوصيل 
+                            إدارة الطلبات 
+                            تقارير خاصة بالمبيعات  
+                            التواصل مع العملاء بسهوله 
+                            ومميزات غيرها كثييييير ..
                         </p>
-                        <p>
-                            تشمل شبكة المنافذ التجارية لفوري محلات البقالة الصغيرة والصيدليات والمكتبات
-                            ومكاتب البريد، وكل منها مجهز بماكينات نقطة البيع المماثلة لماكينات الدفع الخاصة ببطاقات
-                            الائتمان البنكية.</p>
                     </div>
                 </div>
             </div>
@@ -122,7 +124,7 @@
                     </div>
                     <div class="landing__footer-application">
                         <span class="title">
-                            حمل تطبيق هاندي
+                            حمل تطبيق هاندي المتاجر
                         </span>
                         <span class="img">
                             <img src="img/Path3.png" alt="">
@@ -148,12 +150,20 @@
     </section>
 
     <script src="js/framworks/jquery-3.3.1.js"></script>
+    <script>
+        $( document ).ready(function() {
+            var heightBody = $(window).height();
+            var landing__content = $(".landing__content-grid");
+            var landing__header = $(".landing__header").height();
+            var landing__footer = $(".landing__footer").height();
+            var allHeight = landing__header + landing__footer + 60;
+            landing__content.css({
+                "min-height": heightBody - allHeight
+            });
+        })
+    </script>
     <!--3lshan y3ref al element al 7asa html5 like header,footer,.... in internet explorer-->
     <script src="js/framworks/fontawesome-all.min.js"></script>
-    <script src="js/framworks/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
     <!--3lshan al internet explorer yshof @media query -->
     <script src="js/script.js"></script>
 </body>
