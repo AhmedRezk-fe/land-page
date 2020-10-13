@@ -159,12 +159,12 @@ body {
 }
 section.landing {
   /* position: relative; */
-    background: url(../img/bg.png) no-repeat  center;
-    /* width: 100%; */
-    background-size: 27%;
-    min-height: 100vh;
-    /* position: relative; */
-    background-position: -10% center;
+  background: url(../img/bg.png) no-repeat  center;
+  /* width: 100%; */
+  background-size: 25%;
+  min-height: 100vh;
+  /* position: relative; */
+  background-position: -10% center;
 }
 /* section.landing > div{
   position: relative;
@@ -683,7 +683,7 @@ section.landing{
     /* position: relative; */
     background: url(../img/bg.png) no-repeat center;
     /* width: 100%; */
-    background-size: 36%;
+    background-size: 32%;
     min-height: 100vh;
     /* position: relative; */
     background-position: -14% center;
