@@ -328,7 +328,7 @@ border-radius: 30px;
     padding-top: 20px;
 }
 
-.landing__content-grid .landing__content-dis p {width: 66%;font-size: 17px;text-align: justify;margin-bottom: 9px;}
+.landing__content-grid .landing__content-dis p {width: 66%;font-size: 20px;text-align: justify;margin-bottom: 9px;}
 .landing__footer-grid {
     display: flex;
     justify-content: space-between;
@@ -458,6 +458,7 @@ body.over {
   .landing__content-grid .landing__content-dis p {
     width: 84%;
     text-align: justify;
+    font-size: 18px;
   }
   .landing__content-grid .landing__content-video iframe {
     width: 100%;

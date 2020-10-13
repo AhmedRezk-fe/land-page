@@ -1,19 +1,13 @@
 $(window).on("load", function () {
-
-   // var heightBody = $( window ).height();
-   // var landing__content = $(".landing__content");
-   // var landing__header  = $(".landing__header").height();
-   // var landing__footer  = $(".landing__footer").height();
-   // var allHeight = landing__header + landing__footer + 60;
-   // landing__content.css({
-   //    "min-height" : heightBody - allHeight
-   // });
-
+   
    var videoURL = $('.video').attr('src'),
-      dataplay1 = $('.video').attr('data-play');
+   dataplay1 = $('.video').attr('data-play');
 
    $('.video').attr('src', videoURL + '?autoplay=1');
    $('.video').attr('data-play', 1);
+
+
+
 
    $(".play-icon").click(function () {
       // if (dataplay1 == 1) {
